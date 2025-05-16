@@ -13539,3 +13539,14 @@ Script Stack (1 frames) :
 [2025.05.16-20.23.22:020][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
 [2025.05.16-20.23.22:193][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
 [2025.05.16-20.23.22:312][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.05.16-20.34.21:618][998]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (7.1 Surround Sound), InstanceID=1
+[2025.05.16-20.34.21:729][998]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14364
+[2025.05.16-20.34.22:063][999]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=8, SampleRate=48000, DeviceID={0.0.0.00000000}.{a71c45c4-daed-402d-870e-9ed771cf06fb}, Name=Speakers (7.1 Surround Sound)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=46.36
+[2025.05.16-20.34.22:063][999]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2025.05.16-20.34.22:064][999]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.05.16-21.02.50:435][123]LogDerivedDataCache: C:/Users/Brendan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:24.107 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 12401 files in 14508 folders with total size 856 MiB.
+[2025.05.16-21.11.31:925][687]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=PL3466WQ (NVIDIA High Definition Audio), InstanceID=1
+[2025.05.16-21.11.32:184][687]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=14364
+[2025.05.16-21.11.32:518][688]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{587334b4-3ada-4814-a976-bf184446cad8}, Name=PL3466WQ (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=20.02
+[2025.05.16-21.11.32:518][688]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.05.16-21.11.32:519][688]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
